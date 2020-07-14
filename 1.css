@@ -1,0 +1,593 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.pt-3.text-muted.chunho a.tdfooter {
+  font-size: 13px;
+  margin-top: 9px;
+  display: block;
+}
+
+.text-muted.chunho p {
+  font-size: 12px;
+}
+
+.phantext h4 {
+  padding-top: 20px;
+}
+
+.phananh img.img-fluid {
+  padding-right: 10px;
+}
+
+.noidung {
+  background: whitesmoke;
+}
+
+.kocokhoangtrong .media {
+  margin-right: 20px;
+  background: white;
+  height: 100%;
+  border-bottom: 1px solid gray;
+  margin-bottom: 100px;
+}
+
+.texttieude small {
+  font-size: 17px;
+  padding-top: 4px;
+  display: block;
+  padding-bottom: 69px;
+  color: black;
+}
+
+.texttieude h2.display-4 {
+  font-size: 34px;
+  padding-top: 90px;
+  color: black;
+}
+
+a.btn.btn-outline-secondary.nutxem {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(247, 148, 29);
+  color: white;
+  margin-bottom: 10%;
+  padding: 15px;
+  font-weight: 500;
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  font-size: 40px;
+}
+
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link {
+  color: white;
+  font-weight: 500;
+  font-family: "Pridi", serif;
+  font-size: 15px;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link:hover {
+  color: #00aeef;
+}
+
+nav.navbar.navbar-light.bg-faded.menutop {
+  background-color: transparent;
+}
+
+.kocokhoangtrong [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel-inner > .carousel-item > a > img,
+.carousel-inner > .carousel-item > img,
+.img-fluid {
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .navbar-light .navbar-toggler {
+    border-color: white;
+    background: none;
+    color: #e8e8e8;
+  }
+  .navbar-light .navbar-toggler:hover {
+    border-color: white;
+    background: none;
+    color: #ffffff;
+  }
+
+  .navbar-light.menutop .navbar-nav a.nav-link {
+    color: white;
+    padding: 10px 0px 0 0px;
+    font-weight: 400;
+    font-family: "Pridi", serif;
+    font-size: 18px;
+  }
+
+  img.logonho {
+    height: 50px;
+  }
+
+  .menutop a.navbar-brand {
+    padding-top: 0px;
+  }
+
+  nav.navbar.navbar-light.bg-faded.menutop {
+    background-color: #00aeef;
+  }
+
+  .carousel-inner > .carousel-item > a > img,
+  .carousel-inner > .carousel-item > img,
+  .img-fluid {
+    height: 100%;
+  }
+
+  .kocokhoangtrong .media {
+    margin-left: 65px;
+  }
+
+  .navbar-light.menutop .navbar-nav a.nav-link:hover {
+    color: #ffffff;
+  }
+}
+
+.noidung2 {
+  background: lightblue url("images/4.jpg");
+  background-size: 100% 100%;
+}
+
+.noidung2 .row .col-sm-4 {
+  height: 450px;
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+
+.noidung2 .row .col-sm-4 h4 {
+  padding-top: 40px;
+}
+
+.noidung2 .row .col-sm-4:hover {
+  transform: translateX(-300px);
+  cursor: pointer;
+  box-shadow: 0 70px 70px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-transform: translate(0, -10px);
+  transform: translate(0, -10px);
+  transition: all 0.7s;
+}
+
+.noidung2 .hihi {
+  padding-bottom: 50px;
+}
+
+.banner {
+  position: relative;
+}
+
+.menutop {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+.carousel-item img {
+  background-size: cover;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background-size: cover;
+  background: no-repeat center center scroll;
+}
+
+.btn-custum {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.product__content h4 {
+  padding-top: 20px;
+}
+
+.media {
+  position: relative;
+  overflow: hidden;
+}
+.trai {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(192, 181, 181, 0),
+    rgba(0, 0, 0, 0.7)
+  );
+  transition: all 1s;
+  color: white;
+  padding-bottom: 10px;
+}
+.media:hover .trai {
+  transform: translateX(-100%);
+}
+h4 {
+  font-weight: bold;
+}
+.col-sm-4.item {
+  font-size: 20px;
+}
+.phai {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  right: -100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 1s;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.media:hover .phai {
+  right: 0;
+}
+
+.product {
+  background-color: #f5f5f5;
+  padding: 75px;
+}
+
+.item img {
+  padding: 20px;
+}
+.item {
+  border: 1px solid rgb(0, 0, 0, 0.1) !important;
+  background-color: white;
+}
+
+.owl-prev {
+  margin-right: 10px;
+}
+
+.footer {
+  margin-bottom: -30px;
+  padding: 100px 0 70px;
+  background-color: #363636;
+}
+
+.footer,
+.footer-widget h4,
+.footer-bottom p,
+.footer-widget.widget_calendar caption {
+  color: #ffffff;
+}
+
+.footer-widget {
+  margin-bottom: 30px;
+}
+
+.widget-pages ul {
+  list-style: none;
+  columns: 2;
+}
+
+.footer .widget-pages li {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+.hihihi{
+  margin-top: 10px!important;
+}
+
+.footer .widget-pages li {
+  padding: 0 0 0 20px;
+  line-height: 18px;
+}
+
+.footer li {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.footer-widget li {
+  line-height: 20px;
+  list-style: none;
+}
+.widget-pages li {
+  line-height: 20px;
+  list-style: none;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.client-section {
+  padding-top: 80px;
+  padding-bottom: 55px;
+  background: #f5f5f5;
+}
+.client-title h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+}
+.owl-item {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.owl-img {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 35px 15px;
+}
+.owl-img img {
+  height: 150px !important;
+  width: 150px !important;
+}
+.owl-carousel {
+  position: relative;
+  padding: 30px 0;
+}
+.owl-stage-outer {
+  padding-bottom: 10px;
+}
+.owl-theme .owl-nav {
+  margin-top: 0;
+  position: absolute;
+  top: -25px;
+  right: 0;
+}
+.owl-carousel .owl-nav button {
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-weight: 400 !important;
+  color: #00aeef !important;
+  border: 1px solid #00aeef !important;
+  background-color: transparent !important;
+  outline: none;
+  padding: 5px;
+}
+.owl-carousel .owl-nav button.owl-next {
+  margin-left: 5px;
+  font-size: 12px !important;
+}
+.owl-carousel .owl-nav button.owl-prev {
+  margin-left: -85px;
+  font-size: 12px !important;
+}
+.owl-carousel .owl-nav button:hover {
+  color: #fff !important;
+  background-color: #00aeef !important;
+}
+
+.footer {
+  background-color: #181818;
+}
+
+.footer-bottom {
+  background-color: #000000;
+  border-top: 1px solid #00243f;
+}
+
+.footer,
+.footer-widget h4,
+.footer-bottom p,
+.footer-widget.widget_calendar caption {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  padding: 30px 0 25px;
+  font-size: 14px;
+}
+
+.footer a {
+  font-weight: 300;
+  color: #fff;
+}
+
+.footer .widget-pages li {
+  padding: 0 0 0 20px;
+}
+
+.footer .widget-pages li {
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+.footer-widget li {
+  list-style: none;
+}
+
+.footer a:hover,
+.footer-bottom .navi a:hover,
+.footer-bottom .foot-social p a:hover {
+  color: rgba(0, 174, 239, 1);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  opacity: 0.6;
+}
+
+.widget-pages ul {
+  list-style: none;
+  columns: 2;
+}
+
+ul.sub-menu {
+  padding-top: 10px !important;
+  display: inline;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #00aeef;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.carousel-indicators li {
+  transition: opacity 0.3s ease;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  background-clip: unset;
+  position: relative;
+  text-indent: 0;
+  padding: 8px;
+}
+.image-content {
+  position: absolute;
+  bottom: 13px;
+  left: -60px;
+  width: 135px;
+  height: 60px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  align-items: center;
+  display: none;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+}
+.image-content span {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.carousel-indicators li:hover .image-content {
+  display: flex;
+}
+.carousel-indicators .active,
+.carousel-indicators li:hover {
+  background-color: #fff;
+}
+
+a.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+a.cd-top.cd-fade-out {
+  opacity: 1;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #00AEEF;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
